@@ -1,12 +1,15 @@
-Pour pratiquer la création de formulaires non liés à une entité, vous allez créer un convertisseur de poids.
+Pour ce défi, nous allons utiliser plusieurs notions abordées dans cette unité pédagogique !
 
-L'utilisateur pourra entrer une valeur en gramme, puis, en choisissant dans une liste déroulante
-une unité de mesure, la valeur sera convertie.
+Le but sera de pouvoir créer une nouvelle recette sur une application de cuisine.
 
-Les unités de mesure souhaitées sont :
+À partir de ces entités, l'objectif est de créer le formulaire de création de nouvelles recettes.
 
-Kg (diviser la valeur en gramme par 1000),
+Je vous invite à entrer des données de catégories pour que votre liste déroulante ne soit pas vide.
 
-Hg (diviser la valeur en gramme par 100),
+Ce formulaire devra contenir les mêmes champs que cet exemple.
 
-Da (diviser la valeur en gramme par 10).
+Comme vous le voyez, l'idée est surtout de faire fonctionner les éléments plutôt que de rendre
+le formulaire agréable à regarder ! Vous pouvez cependant y ajouter du style si vous le souhaitez.
+
+Si l'utilisateur ne coche pas la case « Oui », les données ne sont pas persistées en base de données
+et un message indiquant que les conditions doivent être acceptées est affiché.
