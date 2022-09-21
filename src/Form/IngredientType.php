@@ -2,24 +2,24 @@
 
 namespace App\Form;
 
-use App\Entity\Theme;
+use App\Entity\Ingredient;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-class ThemeType extends AbstractType
+class IngredientType extends AbstractType
 {
-    public function buildForm(FormBuilderInterface $builder, array $options): void
+    public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
             ->add('name')
         ;
     }
 
-    public function configureOptions(OptionsResolver $resolver): void
+    public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults([
-            'data_class' => Theme::class,
+            'data_class' => Ingredient::class,
         ]);
     }
 }

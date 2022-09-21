@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {{ form_start(form) }}
+    {{ form_row(form.title) }}
+    {{ form_row(form.description) }}
+    {{ form_row(form.category) }}
+    <h3>Ingrédients</h3>
+    <button type="button" class="add_item_link" data-collection-holder-class="ingredients">Ajouter un nouvel ingrédient</button>
+    <ul class="ingredients" data-prototype="{{ form_widget(form.ingredients.vars.prototype)|e('html_attr') }}">
+        {% for ingredient in form.ingredients %}
+            <li>{{ form_row(ingredient.name) }}</li>
+        {% endfor %}
+    </ul>
+    <button>OK</button>
+    {{ form_end(form) }}
+{% endblock %}
+{% block javascripts %}
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="../../public/form.js"></script>
+{% endblock %}
