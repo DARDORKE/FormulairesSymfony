@@ -1,5 +1,12 @@
-En reprenant l'exercice précédent, je vous propose de :
+Pour pratiquer la création de formulaires non liés à une entité, vous allez créer un convertisseur de poids.
 
-Transformer la date qui était en 3 champs en un seul champ de date pour avoir ce résultat.
+L'utilisateur pourra entrer une valeur en gramme, puis, en choisissant dans une liste déroulante
+une unité de mesure, la valeur sera convertie.
 
-Rendre obligatoire la saisie du nom.
+Les unités de mesure souhaitées sont :
+
+Kg (diviser la valeur en gramme par 1000),
+
+Hg (diviser la valeur en gramme par 100),
+
+Da (diviser la valeur en gramme par 10).
