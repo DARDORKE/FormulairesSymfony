@@ -1,0 +1,11 @@
+Le but de cet exercice sera d'afficher un formulaire permettant d'ajouter une nouvelle tâche à une checklist.
+
+Pour simplifier, il n'y aura qu'une seule table (utilisez symfony console make:entity).
+
+2 routes permettront d'afficher ce formulaire.
+
+Une qui permettra d'insérer uniquement un nom de tâche.
+
+Une autre qui permettra d'insérer un nom de tâche ainsi qu'une date limite.
+
+Bien sûr, il faudra créer et utiliser un seul et même formulaire (TaskType).
