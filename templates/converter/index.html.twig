@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ConverterController!{% endblock %}
+
+{% block body %}
+    {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <button>Convertir</button>
+    {{ form_end(form) }}
+    <div>
+   Résultat {{ convert_value }}
+    </div>
+{% endblock %}
