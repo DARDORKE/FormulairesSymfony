@@ -1,15 +1,4 @@
-Pour ce défi, nous allons utiliser plusieurs notions abordées dans cette unité pédagogique !
+Pour cet exercice, vous devez imbriquer 2 formulaires dont les entités sont liées par une
+relation one to one.
 
-Le but sera de pouvoir créer une nouvelle recette sur une application de cuisine.
-
-À partir de ces entités, l'objectif est de créer le formulaire de création de nouvelles recettes.
-
-Je vous invite à entrer des données de catégories pour que votre liste déroulante ne soit pas vide.
-
-Ce formulaire devra contenir les mêmes champs que cet exemple.
-
-Comme vous le voyez, l'idée est surtout de faire fonctionner les éléments plutôt que de rendre
-le formulaire agréable à regarder ! Vous pouvez cependant y ajouter du style si vous le souhaitez.
-
-Si l'utilisateur ne coche pas la case « Oui », les données ne sont pas persistées en base de données
-et un message indiquant que les conditions doivent être acceptées est affiché.
+Il s'agit d'un formulaire d'inscription utilisateur dont voici le modèle physique.
